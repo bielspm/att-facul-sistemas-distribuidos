@@ -1,0 +1,74 @@
+/* Estilo aplicado nos elementos da seção body */
+body {
+    /* configuração da fonte */
+    font-family: Helvetica;
+    /* alinhamento do texto centralizado */
+    text-align: center;
+    /* configurando a cor da fonte */
+    color: white;
+    /* configurando a cor do fundo */
+    background-color: #333;
+    /* Reset de margem e padding */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos aplicados na seção nav */
+nav {
+    display: flex;
+    /* adiciona espaçamento entre os items do menu */
+    justify-content: space-between;
+    /* seta o espaçamento em volta do objeto (mas ainda dentro do box-model) */
+    padding: 20px;
+    /* alinha os items dentro de nav no centro no eixo vertical */
+    align-items: center;
+    /* adiciona uma linha no na borda inferior do nav */
+    border-bottom: 1px solid #666;
+}
+
+/* Lista não ordenada dentro da seção nav */
+nav ul {
+    display: flex;
+    /* retira as 'bolinhas' dos itens da lista */
+    list-style: none;
+    
+}
+
+/* Itens da lista não ordenada */
+ul li {
+    /* adiciona espaçamento a direita dos itens da lista */
+    margin-right: 12px;
+}
+
+/* Tag <a> dentro do item da lista não ordenada */
+ul li a {
+    /* setar a cor da letra dos itens da lista */
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* O hover CSS é uma pseudo-classe da linguagem de estilos */
+ul li a:hover {
+    /* os titulos ficaram azul quando o mouse passar por cima */
+    color: rgb(15, 89, 150);
+}
+
+/* Estilo aplicado no elemento pela tag */ 
+h1 {
+    /* seta o tamanho da letra do titulo principal da pagina */
+    font-size: 32px;
+}
+
+/* Estilo aplicado no elemento pela tag */ 
+img {
+    border: 3px solid rgb(15, 194, 218);
+    height: 300px;
+}
+
+/* Seção footer */
+footer {
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+/* Geral */
+body {
+    /* seta a fonte geral do documento para esta */
+    font-family: sans-serif;
+}
+
+/* Estilo aplicado no elemento pelo ID */
+#div-paragrafos {
+    /* muda a cor da letra dos paragrafos pra essa cor */
+    color: aliceblue;
+    /* mudar a cor de fundo do elemento para roxo */
+    background-color: rgb(93, 93, 145);
+}
+
+/* Estilo aplicado no elemento pela classe */ 
+.longo {
+    /* mudar a cor do elemento com essa clase para roxo */
+    background-color: pink;
+}
+
+/* Estilo aplicado no elemento pelo ID */ 
+#p1 {
+    /* mudar a cor do elemento com essa clase para vermelho */
+    color: brown;
+    /* seta o tamanho da fonte do elemento pra 30 pixels */
+    font-size: 30px;
+    /* seta a fonte do item com esse id para esta */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Estilo aplicado no elemento para a tag <p> */
+p {
+    /* seta a fonte de todos os elementos P para esta */
+    font-family: 'Courier New', Courier, monospace;
+}
